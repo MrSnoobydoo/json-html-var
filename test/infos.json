@@ -1,0 +1,25 @@
+{
+	"version" : "1.0.0",
+	"app-name" : "json-html-var",
+	"logo" : "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+	"info" : {
+		"github" : {
+			"profil" : "https://github.com/MrSnoobydoo",
+			"repository" : "/json-html-var",
+			"licence" : "MIT"
+		},
+		"reddit" : "https://www.reddit.com/user/SnooPuppers3665"
+	},
+	"author" : {
+		"name" : "Julien Tech (MrSnoobydoo)",
+		"profil" : "https://styles.redditmedia.com/t5_4226pg/styles/profileIcon_snoo4bd70355-38c6-4617-abe1-87da68e2b271-headshot.png?width=256&height=256&crop=256:256,smart&s=ecf0181319878e7afe4480ce61713dae52d09efc",
+		"hobbies" : {
+			"0" : "eating pizza",
+			"1" : "coding pizza games",
+			"2" : "studying pizza food",
+			"3" : "making pizza cartoon on Youtube",
+			"4" : "wanting to code with pizza language",
+			"5" : "you want more ? ..."
+		}
+	}
+}

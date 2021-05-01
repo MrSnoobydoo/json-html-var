@@ -1,0 +1,27 @@
+{
+  "name": "json-html-var",
+  "version": "1.0.0",
+  "description": "NPM packages to push variable into html or other web file diretly from JSON data",
+  "main": "src/index.js",
+  "scripts": {
+    "start" : "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSnoobydoo/json-html-var.git"
+  },
+  "keywords": [
+    "json",
+    "html",
+    "var",
+    "variable",
+    "php",
+    "page-variable"
+  ],
+  "author": "Julien Zh (julientech/MrSnoobydoo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrSnoobydoo/json-html-var/issues"
+  },
+  "homepage": "https://github.com/MrSnoobydoo/json-html-var#readme"
+}

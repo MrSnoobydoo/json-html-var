@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>json-html-var test page</title>
+	<style>
+		*{
+			font-family: consolas, sans-serif;
+		}
+		#author {
+		    background: #57b1f1;
+		    border-radius: 7px;
+		    width: 530px;
+		    box-sizing: border-box;
+		    padding: 15px 16px;
+		    position: relative;
+		    top: -148px;
+		    right: 24px;
+		    color: #fff;
+		    font-size: 15px;
+		    float: right;
+		}
+		#author img{
+			border-radius: 50%;
+			width: 120px;
+			height: 120px;
+			transition: all 300ms ease;
+		}
+		#author img:hover{
+			background: #f2f6f9;
+		}
+		div#info {
+		    float: right;
+		    background: #8ccfff;
+		    color: #000;
+		    padding: 9px 12px;
+		    font-size: 14px;
+		}
+
+		div#info > ul {
+		    list-style: none;
+		    margin: 0px;
+		}
+
+		.keyword-style{
+			color: #56b9ff;
+		    font-weight: bold;
+		    text-transform: capitalize;
+		    background: #efefef;
+		    border-radius: 5px;
+		    padding: 2px 6px;
+		    cursor: help;
+		}
+	</style>
+</head>
+<body>
+
+	<header>
+		<div>
+			<img src="$logo" width=200/>
+			<p>Stolen from wikipedia</p>
+		</div>
+		
+	</header>
+	<section id="author">
+		<a href="$info.reddit"><img src="$author.profil" ></a>
+		<div id="info">
+			<ul>
+				<li>Name : $author.name</li>
+				<li>Github : <a href="$info.github.profil">Profil Link</a></li>
+				<li>Repositiroy : <a href="$info.github.profil$info.github.repository">JHV repository</a></li>
+				<li>Hobbies : </li>
+				<ul>
+					<li>$author.hobbies.0</li>
+					<li>$author.hobbies.1</li>
+					<li>$author.hobbies.2</li>
+					<li>$author.hobbies.3</li>
+					<li>$author.hobbies.4</li>
+					<li>$author.hobbies.5</li>
+				</ul>
+			</ul>
+		</div>
+		
+	</section>
+
+</body>
+</html>
