@@ -155,19 +155,7 @@ let result = new JHV({
 console.log(result.code);
 
 ````
-> Browser output : <br>
 
-<span style="
-	font-family: calibri;
-	display:block;
-	background:#161b22;
-	color:#c9d1d9;
-	padding: 5px 15px;
-	font-size: 14px;
-	border-radius: 3px;
-">This text is build with <span style="color: red;font-weight: bold;">json-html-var</span> on the version <span style="color: red;font-weight: bold;">1.0.0</span><br>
-The first build was release the <span style="color:red;font-weight: bold;">2021-05-01</span> by <span style="color: red;font-weight: bold;">MrSnoobydoow</span>.<br>
-Test number : <span style="color: red;font-weight: bold;">18</span></span>
 
 > Another Example : The power of 2
 > Script : index.js
