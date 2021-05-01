@@ -164,8 +164,7 @@ console.log(result.code);
 let json = {
 	"1" : "1",
 	"2" : "2",
-	"3" : "3",
-	"increment" : "increment"
+	"3" : "3"
 }
 
 let code = "2^1 = $1\n"
