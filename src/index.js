@@ -36,11 +36,10 @@ module.exports = class JsonHtmlVar{
 			this.json = datas.json;
 			this.callback = datas.custom ? datas.custom : null;
 
+			if(apply === true) 
+				this.#apply(this.json);
+
 		}
-
-
-		if(apply === true) 
-			this.#apply(this.json);
 	}
 
 	#apply(val, parentKey='', k='', parentVal=''){
@@ -55,5 +54,10 @@ module.exports = class JsonHtmlVar{
 				this.code = this.code.replace(rg, this.callback ? this.callback(parentVal[k]) : parentVal[k]);
 			}
 		}
+	}
+
+	test(PORT=8085){
+		let testPage = require('./test.js');
+		testPage(PORT);
 	}
 }

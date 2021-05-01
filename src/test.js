@@ -1,6 +1,9 @@
 const http = require('http');
 const JHV = require('./index.js');
 
+module.exports = function TestServer(PORT){
+
+
 const server = http.createServer((req, res)=>{
 
 	/*
@@ -51,6 +54,8 @@ const server = http.createServer((req, res)=>{
 	res.end();
 	
 });
-server.listen(8085, '', '', ()=>{
-	console.log("Testing json-html-var\nSee the result on : http://localhost:8085");
+server.listen(PORT, '', '', ()=>{
+	console.log("Testing json-html-var\nSee the result on : http://localhost:"+PORT);
 })
+
+};
