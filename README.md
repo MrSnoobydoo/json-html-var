@@ -11,7 +11,7 @@ Use npm installation through your system console :
 ## Examples test
 
 The npm package contain a test script render of the examples usage below. <br>
-Create a new script **test.js** then launch it with `node test.js` :
+Create a new script **test.js** in the same folder of your node_modules folder ! then launch it with `node test.js` :
 ```js
 const JHV = require('json-html-var')
 new JHV().test(PORT=8085)
@@ -31,7 +31,7 @@ const JHV = require('json-html-var') // you can name it whatever you want
 
 let json = {
     'app-name' : 'json-html-var',
-    version : '1.0.0',
+    version : '1.0.2',
     info : {
         creator : 'MrSnoobydoo',
         date : '2021-05-01'
@@ -52,7 +52,7 @@ console.log(result.code)
 ```
 > Output console :
 ```
-This text is build with json-html-var on the version 1.0.0
+This text is build with json-html-var on the version 1.0.2
 The first build was release the 2021-05-01 by MrSnoobydoo.
 Test number : 18
 ````
@@ -63,7 +63,7 @@ Test number : 18
 ```json
 {
     "app-name" : "Delivery Pizza JHV",
-    "version" : "1.0.0",
+    "version" : "1.0.2",
     "date" : "Sat May 01 2021 13:58:48 GMT+0000",
     "pizza" : {
     	"order-number" : 85,
@@ -107,7 +107,7 @@ console.log(result.code) // use result.code to show the html code into your http
 
 let json = {
     "app-name" : "Delivery Pizza JHV",
-    "version" : "1.0.0",
+    "version" : "1.0.2",
     "date" : "Sat May 01 2021 13:58:48 GMT+0000",
     "pizza" : {
     	"order-number" : 85,
@@ -131,7 +131,7 @@ let result = new JHV({
 // we retake the code of the example 1
 let json = {
     'app-name' : 'json-html-var',
-    version : '1.0.0',
+    version : '1.0.2',
     info : {
         creator : 'MrSnoobydoo',
         date : '2021-05-01'

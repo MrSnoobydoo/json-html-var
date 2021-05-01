@@ -13,7 +13,7 @@ const server = http.createServer((req, res)=>{
 		code : "<p>This text is generate with $name at version $version</p>",
 		json : {
 			name : "json-html-var",
-			version : "1.0.0"
+			version : "1.0.2"
 		}
 	});
 
@@ -41,8 +41,8 @@ const server = http.createServer((req, res)=>{
 	*/
 	let result3 = new JHV({
 		file : {
-			code : './index.htm',
-			json : './infos.json'
+			code : __dirname+'\\index.htm',
+			json :  __dirname+'\\infos.json'
 		}
 	})
 

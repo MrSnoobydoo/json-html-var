@@ -1,6 +1,6 @@
 {
   "name": "json-html-var",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPM packages to push variable into html or other web file diretly from JSON data",
   "main": "src/index.js",
   "scripts": {
