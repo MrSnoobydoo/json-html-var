@@ -41,8 +41,8 @@ const server = http.createServer((req, res)=>{
 	*/
 	let result3 = new JHV({
 		file : {
-			code : './test/index.htm',
-			json : './test/infos.json'
+			code : './index.htm',
+			json : './infos.json'
 		}
 	})
 

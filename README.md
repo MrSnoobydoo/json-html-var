@@ -10,7 +10,7 @@ Use npm installation through your system console :
 
 ## Examples test
 
-The npm package contain a test script render of the examples usage below in **test** folder. <br>
+The npm package contain a test script render of the examples usage below. <br>
 Create a new script **test.js** then launch it with `node test.js` :
 ```js
 const JHV = require('json-html-var')
@@ -193,6 +193,9 @@ console.log(result.code);
 ```
 ### Contribution
 > You can contribute to this project of course :D
+
+### Licence
+This projec is under [MIT Licence](https://github.com/electron/electron/blob/master/LICENSE)
 
 ### Next features
 - using loop to fetch array values with one lines
