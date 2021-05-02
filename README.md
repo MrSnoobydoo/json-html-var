@@ -24,6 +24,29 @@ First you need to import the module in the script you wish to used
 ```js
 const JHV = require('json-html-var') // you can name it whatever you want
 ```
+
+The principe is simple : access a variable from you JSON code as if you are coding in javascript :
+<br>Example :
+```
+// Image your JSON :
+var myData = {
+	"welcome_message" : "Hello World !"
+}
+// When you want to access the key "welcome_message" value, in JS you do :
+console.log(myData.welcome_message) // print "Hello World !"
+
+// With json-html-var you do in every type of client script(JS, HTML...) or a string :
+<p>$myData.welcome_message</p> // return to client <p><span class="custom_class_with_JHV">Hello World</span></p>
+
+```
+The goal is to "simulate" php variable that you insert into your HTML page, but simple and easier. And this can extend to all string or file that can be converted to string !
+Are you ready ? Then let's go !
+
+
+<br >
+<br >
+
+
 1/ Using variable
 
 > Input js script :
