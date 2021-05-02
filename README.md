@@ -27,7 +27,7 @@ const JHV = require('json-html-var') // you can name it whatever you want
 
 The principe is simple : access a variable from you JSON code as if you are coding in javascript :
 <br>Example :
-```
+```js
 // Image your JSON :
 var myData = {
 	"welcome_message" : "Hello World !"
